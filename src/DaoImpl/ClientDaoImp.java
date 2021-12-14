@@ -23,6 +23,7 @@ public class ClientDaoImp implements ClientDao {
 	public void addClient(Clients client) {
 		try {
 			
+			
 		
 		//cree une requete sql
 
