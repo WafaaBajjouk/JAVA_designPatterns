@@ -4,22 +4,25 @@ import java.sql.Date;
 
 public class Rv {
 	private int id;
-	private Date jour;
+	private String jour;
 	private int id_Client;
 	private int id_Creneaux;
 	
-	public Rv(int id, Date jour, int id_Client, int id_Creneaux) {
+	public Rv(int id, String jour, int id_Client, int id_Creneaux) {
 		this.id = id;
 		this.jour = jour;
 		this.id_Client = id_Client;
 		this.id_Creneaux = id_Creneaux;
 	}
 
+	public Rv() {
+		
+	}
 	public int getId() {
 		return id;
 	}
 
-	public Date getJour() {
+	public String getJour() {
 		return jour;
 	}
 
@@ -35,8 +38,8 @@ public class Rv {
 		this.id = id;
 	}
 
-	public void setJour(Date jour) {
-		this.jour = jour;
+	public void setJour(String jour2) {
+		this.jour = jour2;
 	}
 
 	public void setId_Client(int id_Client) {

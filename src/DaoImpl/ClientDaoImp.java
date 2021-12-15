@@ -17,8 +17,7 @@ import Models.Clients;
 
 public class ClientDaoImp implements ClientDao {
 	
-	Connection conn= new MyConnexionSingleton().getInstance();
-
+	 Connection conn= MyConnexionSingleton.getInstance();
 
 	public void addClient(Clients client) {
 		try {

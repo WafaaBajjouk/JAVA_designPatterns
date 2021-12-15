@@ -14,6 +14,10 @@ public class Medecins {
 		this.nom = nom;
 		this.prenom = prenom;
 	}
+	
+	public Medecins() {
+	}
+
 	 
 	public int getId() {
 		return id;

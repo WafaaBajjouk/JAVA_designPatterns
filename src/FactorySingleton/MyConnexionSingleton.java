@@ -2,16 +2,19 @@ package FactorySingleton;
 
 import java.sql.Connection;
 
+
 import java.sql.DriverManager;
 import java.sql.SQLException;
-
-import DaoImpl.ClientDaoImp;
 
 
 public class MyConnexionSingleton  {
 	
 	private static Connection conn;
 
+	private MyConnexionSingleton() {
+		
+	}
+	
 		
 			public static Connection getInstance(){
 		

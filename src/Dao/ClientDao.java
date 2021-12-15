@@ -9,8 +9,7 @@ import Models.Clients;
 public interface ClientDao {
 	
 	  
-	Connection conn= new MyConnexionSingleton().getInstance();
-
+	 Connection conn= MyConnexionSingleton.getInstance();
 	public void addClient(Clients client);
 	public List<Clients> getAllClients();
 	public Clients getClientById(int id);

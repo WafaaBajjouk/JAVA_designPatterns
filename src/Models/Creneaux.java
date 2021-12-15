@@ -21,6 +21,9 @@ public class Creneaux {
 		this.id_medecin = id_medecin;
 	}
 	
+	public Creneaux() {
+		
+	}
 	public int getiD() {
 		return iD;
 	}
